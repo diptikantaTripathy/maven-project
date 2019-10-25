@@ -27,6 +27,16 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+	 <repository>
+        <id>central</id>
+        <name>Dipti-PC-releases</name>
+        <url>http://localhost:8081/artifactory/Maven_Proj_Artifactory</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Dipti-PC-snapshots</name>
+        <url>http://localhost:8081/artifactory/Maven_Proj_Artifactory</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
@@ -218,20 +228,6 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-  
-  
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Dipti-PC-releases</name>
-        <url>http://localhost:8081/artifactory/Maven_Proj_Artifactory</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Dipti-PC-snapshots</name>
-        <url>http://localhost:8081/artifactory/Maven_Proj_Artifactory</url>
-    </snapshotRepository>
-</distributionManagement>
 
   <prerequisites>
     <maven>3.0.3</maven>
