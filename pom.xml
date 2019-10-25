@@ -219,6 +219,7 @@
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
   
+  
   <distributionManagement>
     <repository>
         <id>central</id>
